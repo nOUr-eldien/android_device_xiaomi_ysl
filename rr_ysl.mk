@@ -29,7 +29,8 @@ TARGET_BOOT_ANIMATION_RES := 720
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
-#Face-Unlock
+#RR-Stuff
+RR_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
